@@ -1106,11 +1106,15 @@ line|z12-13 [waterway=stream], line|z12-13 [waterway=drain],  line|z14- [waterwa
 line|z11 [waterway=stream], line|z11 [waterway=drain],  line|z12-13 [waterway=ditch],  line|z12-13 [barrier=ditch]
     {color: #507dbf; width: .5; z-index: 6; opacity: 1; smooth: 0.2;}
 
-line|z10 [waterway=stream], line|z9-10 [waterway=drain]
+line|z11 [waterway=ditch],  line|z11 [barrier=ditch]
+    {color: #507dbf; width: .5; z-index: 6; opacity: 1; smooth: 0.2;}
+
+line|z10 [waterway=stream], line|z10 [waterway=drain]
     {color: #7297cc; width: .5; z-index: 6; opacity: 1; smooth: 0.2;}
 
-line|z9 [waterway=stream], line|z9-11 [waterway=drain],  line|z12-13 [waterway=ditch],  line|z12-13 [barrier=ditch]
+line|z9 [waterway=stream], line|z9 [waterway=drain]
     {color: #7297cc; width: .5; z-index: 6; opacity: 1; }
+
 
 area|z11- [natural=wetland] {fill-position: background; fill-color: #507dbf; z-index: 7;  fill-opacity: .15; fill-image: area-wetland.png;}
 area|z6-10 [natural=wetland] {fill-position: background; fill-color: #7297cc; z-index: 7;  fill-opacity: .15; fill-image: area-wetland.png;}
