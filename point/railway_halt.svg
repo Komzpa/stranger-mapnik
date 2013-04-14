@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg4511"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="11"
+   height="11"
+   sodipodi:docname="railway_halt.svg">
+  <metadata
+     id="metadata4517">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4515" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1024"
+     inkscape:window-height="580"
+     id="namedview4513"
+     showgrid="false"
+     inkscape:zoom="32"
+     inkscape:cx="4.7420686"
+     inkscape:cy="6.2017233"
+     inkscape:window-x="-2"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg4511" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#ffffff;fill-opacity:1;stroke:none"
+     id="path5050"
+     sodipodi:cx="4.875"
+     sodipodi:cy="4.96875"
+     sodipodi:rx="4.375"
+     sodipodi:ry="4.375"
+     d="m 9.25,4.96875 a 4.375,4.375 0 1 1 -8.75,0 4.375,4.375 0 1 1 8.75,0 z"
+     transform="matrix(1.2342857,0,0,1.2342857,-0.51714279,-0.63285707)" />
+  <path
+     sodipodi:type="arc"
+     style="fill:#007dff;fill-opacity:1;stroke:#004c99;stroke-width:0.90827405;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+     id="path4521"
+     sodipodi:cx="5.0529661"
+     sodipodi:cy="4.7097459"
+     sodipodi:rx="3.7182202"
+     sodipodi:ry="3.7182202"
+     d="m 8.7711864,4.7097459 a 3.7182202,3.7182202 0 1 1 -7.4364405,0 3.7182202,3.7182202 0 1 1 7.4364405,0 z"
+     transform="matrix(0.91075615,0,0,0.91075614,0.89798003,1.21057)" />
+</svg>
