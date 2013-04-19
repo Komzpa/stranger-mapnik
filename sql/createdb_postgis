@@ -1,0 +1,23 @@
+#!/bin/bash
+
+export DBOWNER=gis
+export DBNAME=gis
+
+createuser --no-superuser --no-createdb --no-createrole "$DBOWNER"
+
+echo "CREATE TABLESPACE gis_data OWNER gis LOCATION '/var/lib/pgsql/data/gis_data';" | psql -U postgres
+echo "CREATE TABLESPACE gis_index OWNER gis LOCATION '/var/lib/pgsql/data/gis_index';" | psql -U postgres
+
+createdb -e -D gis_data -E UTF8 -O $DBOWNER $DBNAME
+
+#createlang plpgsql $DBNAME
+
+psql $DBNAME < /usr/share/postgresql92/contrib/postgis-1.5/postgis.sql 
+psql $DBNAME < /usr/share/postgresql92/contrib/postgis-1.5/spatial_ref_sys.sql 
+
+echo 'ALTER TABLE geometry_columns OWNER TO ' $DBOWNER '; ALTER TABLE spatial_ref_sys OWNER TO ' $DBOWNER ';' | psql $DBNAME
+( echo "GRANT ALL on geometry_columns TO \"$DBOWNER\";";
+  echo "GRANT ALL ON SCHEMA PUBLIC TO \"$DBOWNER\";";
+  echo "GRANT ALL on spatial_ref_sys TO \"$DBOWNER\";";) | psql -U postgres $DBNAME
+
+ 
