@@ -220,7 +220,7 @@ line|z8 [highway=tertiary]
 area|z14- [area:highway=tertiary]
     { fill-color: #ec9f62; casing-width: 1; casing-color: #544900; z-index: 19;}
 
-line|z13- [highway=motorway]::mark, line|z14- [highway=trunk]::mark,
+line|z13- [highway=motorway]::mark, line|z14- [highway=trunk]::mark
     { color: #ffffff; width: .5; z-index: 24; dashes: 7,4; z-index: 24; smooth: 0.3; }
 
 line|z15- [highway=primary]::mark, line|z17- [highway=secondary]::mark
@@ -1384,7 +1384,7 @@ way|z16- [building:part]
 way|z15 [building:part] 
   { width: .5; color: #606080; z-index: 69; opacity: .5; }
 
-line|z13- [power=line], { width:.8; color: #a00000; z-index: 90;}
+line|z13- [power=line] { width:.8; color: #a00000; z-index: 90;}
 line|z9-12 [power=line], way|z13- [power=minor_line] { width:.4; color: #a00000; z-index: 90;}
 line|z10- [man_made=pipeline] { width:.8; color: #a050a0; z-index: 90;}
 
