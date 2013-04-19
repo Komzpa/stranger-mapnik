@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+# Скрипт для начальной инициализации базы данных OSM PostGIS 
+# PostgreSQL: 9.2.*
+# PostGIS: 1.5.*
+#
+# Выполнять от пользователя postgres
+#
 
 export DBOWNER=gis
 export DBNAME=gis
@@ -20,4 +27,3 @@ echo 'ALTER TABLE geometry_columns OWNER TO ' $DBOWNER '; ALTER TABLE spatial_re
   echo "GRANT ALL ON SCHEMA PUBLIC TO \"$DBOWNER\";";
   echo "GRANT ALL on spatial_ref_sys TO \"$DBOWNER\";";) | psql -U postgres $DBNAME
 
- 

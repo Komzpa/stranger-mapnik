@@ -1,0 +1,17 @@
+#!/bin/bash
+
+time osm2pgsql -c -d gis \
+  --tablespace-main-data gis_data \
+  --tablespace-slim-data gis_data \
+  --tablespace-main-index gis_index \
+  --tablespace-slim-index gis_index \
+  --slim -S osm2pgsql.style \
+  -C 2048M \
+  -U gis \
+  --number-processes 4 \
+  --unlogged \
+  source.osm.pbf 
+
+psql -d gis -U gis < sql/base_indexes.sql
+psql -d gis -U gis < sql/update_cut_names.sql
+psql -d gis -U gis < sql/cuter.sql 
