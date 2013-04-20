@@ -1141,11 +1141,11 @@ area|z12-13 [landuse=industrial] {fill-position: background; fill-color: #222; z
 area|z9-11 [landuse=industrial] way|z9- [man_made=dyke] {fill-position: background; fill-color: #222; z-index: 10; fill-opacity: .12;}
 
 area|z15- [landuse=landfill] {fill-position: background; fill-color: #422; z-index: 10;  fill-opacity: .26;
-  text: name; text-halo-radius: 1; text-position: center; font-size: 10; max-width: 30; font-color: #422;}
+  text: name; text-halo-radius: 1; text-position: center; font-size: 10; max-width: 30; text-color: #422;}
 area|z14 [landuse=landfill] {fill-position: background; fill-color: #422; z-index: 10; fill-opacity: .20;
-  text: name; text-halo-radius: 1; text-position: center; font-size: 9.5; max-width: 30; font-color: #422;}
+  text: name; text-halo-radius: 1; text-position: center; font-size: 9.5; max-width: 30; text-color: #422;}
 area|z12-13 [landuse=landfill] {fill-position: background; fill-color: #422; z-index: 10;  fill-opacity: .16;
-  text: name; text-halo-radius: 1; text-position: center; font-size: 9; max-width: 30; font-color: #422;} 
+  text: name; text-halo-radius: 1; text-position: center; font-size: 9; max-width: 30; text-color: #422;}
 area|z9-11 [landuse=landfill] {fill-position: background; fill-color: #422; z-index: 10; fill-opacity: .12;}
 
 area|z12- [aeroway=aerodrome], area|z13- [aeroway=helipad], area|z12- [aeroway=apron]
