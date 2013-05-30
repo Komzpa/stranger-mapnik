@@ -1219,10 +1219,10 @@ node|z9-17 [place=locality]
   { text: name; text-halo-radius:1; text-position: center; font-size: 9;
   z-index: 95; text-allow-overlap: false; -x-kot-min-distance:20; text-placement:any;}
 
-node|z12-17 [place=hamlet]
+node|z12-17 [place=hamlet], node|z12-17 [place=allotments]
   { text: name; text-halo-radius:1; text-position: center; font-size: 9.5;
   z-index: 95; text-allow-overlap: false; -x-kot-min-distance:0; text-placement:any;}
-node|z9-11 [place=hamlet]
+node|z9-11 [place=hamlet], node|z9-11 [place=allotments]
   { text: name; text-halo-radius:1; text-position: center; font-size: 9.5;
   z-index: 95; text-allow-overlap: false; -x-kot-min-distance:10; text-placement:any;}
 
